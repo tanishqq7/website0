@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('jean-philippe-delberghe-9XAnXWHu9_4-unsplash (2).jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #740c0c83;
+            border-radius: 21px;
+            box-shadow: 0 0 10px rgba(75 13 13 / 90%);
+            padding: 20px;
+            width: 320px;
+            text-align: center;
+        }
+        H1{
+            color: white;
+        }
+
+        .login-container h2 {
+            color: #723e9f;
+        }
+
+        .login-form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 2px solid #a2caeb;
+            border-radius: 6px;
+        }
+
+        .form-group button {
+            background-color: #564caf;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 93px;
+        }
+
+        .form-group button:hover {
+            background-color: #8f77fc;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form class="login-form">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Date of birth:</label>
+                <input type="date" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">START</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

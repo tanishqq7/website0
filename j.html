@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<button id="rightButton" onclick="checkAnswer(true)">Right Button</button>
+<button id="wrongButton" onclick="checkAnswer(false)">Wrong Button</button>
+
+<script>
+    function checkAnswer(isRight) {
+        if (isRight) {
+            alert("Right Answer!");
+        } else {
+            alert("Wrong Answer!");
+        }
+    }
+</script>
+
+</body>
+</html>

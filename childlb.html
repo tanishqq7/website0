@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Yes/No Game</title>
+    <style>
+        .game-container img{
+            height: 234px;
+            width: 230px;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>What wil you do?</h1>
+        <video width="230px" height="234" controls autoplay>
+
+            <source src="child.mp4" type="video/mp4">
+        </video>
+
+        <p id="message">(You saw a kid carrying heavy things or doing labour work.)</p>
+        <div class="button-container">
+            <button onclick="showMessage('Yes')">Call the police</button>
+            <button onclick="showMessage('No')">Ignore it</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

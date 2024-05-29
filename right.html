@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Yes/No Game</title>
+    <style>
+        .game-container img{
+            height: 234px;
+            width: 230px;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>What wil you do?</h1>
+        <img src="Designer (11) (1).gif" alt="GIF image" class="gif-image">
+        <p id="message">(If a stranger give you chocolate)<br>Hey kid, do you want this chocolate?</br></p>
+        <div class="button-container">
+            <button onclick="showMessage('Yes')">Yes, thank you</button>
+            <button onclick="showMessage('No')">No, i don't want it</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
